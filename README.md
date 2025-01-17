@@ -4,9 +4,8 @@ Terraform module setting up a collector that receives Audit Trail events sent by
 
 ## Usage
 
-```hcl
 provider "aws" {
-  region = "eu-west-1" # Change if you want to use a different region
+  region = "eu-north-1" # Change if you want to use a different region
 }
 
 module "collector" {
